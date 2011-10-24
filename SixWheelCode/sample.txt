@@ -1,0 +1,16 @@
+CHANGES SINCE LAST WORKING BUILD
+_________________________
+
+HELP
+
+THINGS TO DO
+_________________________
+
+1x Calibrate pneumatics/arm with limit switches (not code)
+2x Fine tune autonomous drive
+  -Make wall sensor work again
+3. Adjust autonomous releasing tube so that it hits perfectly every time
+  -Adjust turning amount so tube doesn't miss peg
+4x Make clicking stop?
+5. Minibot release (test with robot
+)

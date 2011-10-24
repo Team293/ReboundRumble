@@ -1,0 +1,23 @@
+MINIBOT CODE INSTRUCTIONS
+
+These are the blocks of code you need if the team uses C++
+
+*****//Minibot realse
+	if(opJoy->GetRawButton(9))MiniGo->Set(0.0);//servo all the way in
+	if(opJoy->GetRawButton(4))MiniGo->Set(0.95);//servo all the way out
+	if(opJoy->GetRawButton(10))MiniGo->Set(0.28);//servo in between (not halfway)*****
+
+This code should be in the teleop section of the code or wherever they do their coding for teleop
+
+******//Minibot Intialization- put this in "teleopinit" and "autonomousinit" (just to be safe) This makes sure that the servo is set in home and won't move the minibot/pin
+	MiniGo->Set(0.0);//servo all the way in**********
+
+You also have to define your objects. The team will probably have a joystick already defined, and you will have to substitute that with "opJoy" and put in the buttons that they would like to use
+
+You need to create the MiniGo object. This will vary with team to team but this is the block of code you need
+******Servo * MiniGo;*****
+
+Next define the object as a new server in a PWM port
+*****MiniGo = new Servo(10);****
+
+Everything should hopefully work now!! :D Look at the C++ Reference guide and the Getting started with C++ if you need extra help
