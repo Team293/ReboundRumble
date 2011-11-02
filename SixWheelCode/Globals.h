@@ -2,7 +2,13 @@
 #define _globals_h_ 1
 /*THIS IS A TEST TO SEE IF THE GITHUB REPOSITORY
  * THINGY WORKS. GOOD USEABLE CODE HERE TOO.
+ * 
+ * 
 /*lalalalalalamakingchanges woootwoootwoot
+ * 
+ * yayayaya, making more changes to see if this 
+ * commits properly! woohoo
+ * 
  * Globals.h
  * global constants stored here
  */
