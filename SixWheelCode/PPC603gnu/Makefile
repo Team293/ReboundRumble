@@ -31,8 +31,8 @@ else
 MODE_DIR := NonDebug
 endif
 OBJ_DIR := .
-PRJ_ROOT_DIR := C:/FIRST/2011/Workspace/SixWheelCode
-WS_ROOT_DIR := C:/FIRST/2011/Workspace
+PRJ_ROOT_DIR := C:/Documents\ and\ Settings/Sysadmin/Last-Years-Code-/SixWheelCode
+WS_ROOT_DIR := C:/Documents\ and\ Settings/Sysadmin/Last-Years-Code-
 
 
 
@@ -158,31 +158,31 @@ SixWheelCode_partialImage/$(MODE_DIR)/% : LIBPATH =
 SixWheelCode_partialImage/$(MODE_DIR)/% : LIBS = 
 SixWheelCode_partialImage/$(MODE_DIR)/% : OBJ_DIR := SixWheelCode_partialImage/$(MODE_DIR)
 
-SixWheelCode_partialImage/$(MODE_DIR)/Objects/SixWheelCode/Autonomous.o : C:/FIRST/2011/Workspace/SixWheelCode/Autonomous.cpp
+SixWheelCode_partialImage/$(MODE_DIR)/Objects/SixWheelCode/Autonomous.o : C:/Documents\ and\ Settings/Sysadmin/Last-Years-Code-/SixWheelCode/Autonomous.cpp
 	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
 
 
-SixWheelCode_partialImage/$(MODE_DIR)/Objects/SixWheelCode/DashboardDataFormat.o : C:/FIRST/2011/Workspace/SixWheelCode/DashboardDataFormat.cpp
+SixWheelCode_partialImage/$(MODE_DIR)/Objects/SixWheelCode/DashboardDataFormat.o : C:/Documents\ and\ Settings/Sysadmin/Last-Years-Code-/SixWheelCode/DashboardDataFormat.cpp
 	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
 
 
-SixWheelCode_partialImage/$(MODE_DIR)/Objects/SixWheelCode/DifferentOtherAutonomous.o : C:/FIRST/2011/Workspace/SixWheelCode/DifferentOtherAutonomous.cpp
+SixWheelCode_partialImage/$(MODE_DIR)/Objects/SixWheelCode/DifferentOtherAutonomous.o : C:/Documents\ and\ Settings/Sysadmin/Last-Years-Code-/SixWheelCode/DifferentOtherAutonomous.cpp
 	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
 
 
-SixWheelCode_partialImage/$(MODE_DIR)/Objects/SixWheelCode/Disabled.o : C:/FIRST/2011/Workspace/SixWheelCode/Disabled.cpp
+SixWheelCode_partialImage/$(MODE_DIR)/Objects/SixWheelCode/Disabled.o : C:/Documents\ and\ Settings/Sysadmin/Last-Years-Code-/SixWheelCode/Disabled.cpp
 	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
 
 
-SixWheelCode_partialImage/$(MODE_DIR)/Objects/SixWheelCode/Pneumatics.o : C:/FIRST/2011/Workspace/SixWheelCode/Pneumatics.cpp
+SixWheelCode_partialImage/$(MODE_DIR)/Objects/SixWheelCode/Pneumatics.o : C:/Documents\ and\ Settings/Sysadmin/Last-Years-Code-/SixWheelCode/Pneumatics.cpp
 	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
 
 
-SixWheelCode_partialImage/$(MODE_DIR)/Objects/SixWheelCode/Spike.o : C:/FIRST/2011/Workspace/SixWheelCode/Spike.cpp
+SixWheelCode_partialImage/$(MODE_DIR)/Objects/SixWheelCode/Spike.o : C:/Documents\ and\ Settings/Sysadmin/Last-Years-Code-/SixWheelCode/Spike.cpp
 	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
 
 
-SixWheelCode_partialImage/$(MODE_DIR)/Objects/SixWheelCode/Teleop.o : C:/FIRST/2011/Workspace/SixWheelCode/Teleop.cpp
+SixWheelCode_partialImage/$(MODE_DIR)/Objects/SixWheelCode/Teleop.o : C:/Documents\ and\ Settings/Sysadmin/Last-Years-Code-/SixWheelCode/Teleop.cpp
 	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
 
 

@@ -6,10 +6,12 @@
  * Hopefully it works too
  */
 
+
+
 #define _AUTONOMOUS
 #define _AUTO_DRIVE
 #define _DISTANCE_SENSOR
- 
+ /*
 void Spike::AutonomousInit() {
 #ifdef _AUTONOMOUS
 	MiniGo->Set(0.0);//servo all the way in
@@ -22,8 +24,9 @@ void Spike::AutonomousInit() {
 	seen_left=false;
 	seen_right=false;
 	auto_middle=!AutoSwitch1->Get();
-#endif
-}
+#endif  
+	
+} */
 
 //void Spike::AutonomousPeriodic() {
 /*#ifdef _AUTONOMOUS
