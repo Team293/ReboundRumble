@@ -65,10 +65,6 @@
 		delete ColDnSol;
 		delete GrprOpnSol;
 		delete GrprClsSol;
-		delete ColUpSol;
-		delete ColDnSol;
-		delete GrprOpnSol;
-		delete GrprClsSol;
 		delete frontDistance; 
 		delete MiniGo;
 	}

@@ -7,7 +7,7 @@
 /*       -fdollars-in-identifiers flag.                   */
 
 
-void _GLOBAL__I_C__Documents_and_Settings_Sysadmin_Last_Years_Code__SixWheelCode_DifferentOtherAutonomous_cpp_05647D79_2D61D4D7();
+void _GLOBAL__I_C__Documents_and_Settings_Sysadmin_Last_Years_Code__SixWheelCode_DifferentOtherAutonomous_cpp_05647D79_901357A2();
 
 void _GLOBAL__I__ZN5Spike10TeleopInitEv();
 
@@ -32,7 +32,7 @@ void _GLOBAL__I_AxisCamera_debugFlag();
 extern void (*_ctors[])();
 void (*_ctors[])() =
     {
-    _GLOBAL__I_C__Documents_and_Settings_Sysadmin_Last_Years_Code__SixWheelCode_DifferentOtherAutonomous_cpp_05647D79_2D61D4D7,
+    _GLOBAL__I_C__Documents_and_Settings_Sysadmin_Last_Years_Code__SixWheelCode_DifferentOtherAutonomous_cpp_05647D79_901357A2,
     _GLOBAL__I__ZN5Spike10TeleopInitEv,
     _GLOBAL__I__ZN5Spike12DisabledInitEv,
     _GLOBAL__I__ZN5Spike14sendIOPortDataEv,
@@ -46,7 +46,7 @@ void (*_ctors[])() =
     0
     };
 
-void _GLOBAL__D__GLOBAL__I_C__Documents_and_Settings_Sysadmin_Last_Years_Code__SixWheelCode_DifferentOtherAutonomous_cpp_05647D79_2D61D4D7();
+void _GLOBAL__D__GLOBAL__I_C__Documents_and_Settings_Sysadmin_Last_Years_Code__SixWheelCode_DifferentOtherAutonomous_cpp_05647D79_901357A2();
 
 void _GLOBAL__D__ZN5Spike10TeleopInitEv();
 
@@ -69,7 +69,7 @@ void _GLOBAL__D_AxisCamera_debugFlag();
 extern void (*_dtors[])();
 void (*_dtors[])() =
     {
-    _GLOBAL__D__GLOBAL__I_C__Documents_and_Settings_Sysadmin_Last_Years_Code__SixWheelCode_DifferentOtherAutonomous_cpp_05647D79_2D61D4D7,
+    _GLOBAL__D__GLOBAL__I_C__Documents_and_Settings_Sysadmin_Last_Years_Code__SixWheelCode_DifferentOtherAutonomous_cpp_05647D79_901357A2,
     _GLOBAL__D__ZN5Spike10TeleopInitEv,
     _GLOBAL__D__ZN5Spike12DisabledInitEv,
     _GLOBAL__D__ZN5Spike14sendIOPortDataEv,

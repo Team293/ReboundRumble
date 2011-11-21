@@ -8,9 +8,9 @@
 
 
 
-#define _AUTONOMOUS
-#define _AUTO_DRIVE
-#define _DISTANCE_SENSOR
+//#define _AUTONOMOUS
+//#define _AUTO_DRIVE
+//#define _DISTANCE_SENSOR
  /*
 void Spike::AutonomousInit() {
 #ifdef _AUTONOMOUS
@@ -61,7 +61,7 @@ void Spike::AutonomousInit() {
 	
 	//Stop and hang if the robot is close to the wall (make sure it's not the arm triggering it)
 	float distance_feet = (frontDistance->GetVoltage())
-	//*1024/5/2.54/12
+	1024/5/2.54/12
 	;
 #ifdef _DISTANCE_SENSOR
 	if(arm_up && (distance_feet<.65) && (autoState!=STOP)){
@@ -111,7 +111,7 @@ void Spike::AutonomousInit() {
 		//if(timer-stop_time < 40) {
 		//	Drive->ArcadeDrive(0.0,0.0);
 		//}
-		/*else if(timer-stop_time < 80)*/ /*ClawOpen();
+		else if(timer-stop_time < 80)*/ /*ClawOpen();
 #ifdef _AUTO_DRIVE
 		if(timer-stop_time<120 && timer-stop_time>40) Drive->ArcadeDrive(0.55,0.0);
 #endif
