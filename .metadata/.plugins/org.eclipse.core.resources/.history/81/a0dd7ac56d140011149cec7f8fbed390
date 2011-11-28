@@ -1,13 +1,11 @@
 #include "Spike.h"
-#include"math.h"
+//#include"math.h"
 
 
 
 
 /**
  * Teleop Code
- * Checking if this works
- * LOLOLOLOLOLOLOL
  */
 void Spike::TeleopInit(void)
 {
